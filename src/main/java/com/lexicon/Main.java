@@ -26,19 +26,19 @@ public class Main {
                 switch (op) {
                     case 1:
                         result = num1 + num2;
-                        System.out.printf("%d + %d = %d", num1, num2, result);
+                        System.out.printf("Result: %d + %d = %d", num1, num2, result);
                         break;
                     case 2:
                         result = num1 - num2;
-                        System.out.printf("%d - %d = %d", num1, num2, result);
+                        System.out.printf("Result: %d - %d = %d", num1, num2, result);
                         break;
                     case 3:
                         result = num1 * num2;
-                        System.out.printf("%d * %d = %d", num1, num2, result);
+                        System.out.printf("Result: %d * %d = %d", num1, num2, result);
                         break;
                     case 4:
                         result = num1 / num2;
-                        System.out.printf("%d / %d = %d", num1, num2, result);
+                        System.out.printf("Result: %d / %d = %d", num1, num2, result);
                         break;
                     default:
                         System.out.println("Enter proper input.");
